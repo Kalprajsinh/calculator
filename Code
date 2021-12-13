@@ -1,0 +1,34 @@
+#include<stdlib.h>  
+void main ()  
+{  
+    char c;  
+    int x,y,z,v;    
+    do{  
+    printf("\n1.for +\n2.for -\n3.for *\n4.for /\n");
+    scanf("%d",&z);
+    printf("enter 2 number");
+    
+    scanf("%d %d",&x,&y);  
+    switch(z)  
+    {  
+        case 1 :   
+        printf("%d + %d = %d",x,y,x+y);   
+        break;  
+        case 2:    
+        printf("%d - %d = %d",x,y,x-y);
+          
+        break;  
+        case 3 :   
+        printf("%d * %d = %d",x,y,x*y);   
+        break;  
+        case 4 :   
+        printf("%d / %d = %d",x,y,x/y);   
+        break;  
+        default:   
+        printf("please enter valid choice");      
+    }  
+    printf("\ndo you want to enter more?");   
+    scanf("%d",&v);  
+    scanf("%c",&c);  
+    }while(c=='y');  
+} 
