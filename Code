@@ -3,7 +3,8 @@ void main ()
 {  
     char c;  
     int x,y,z,v;    
-    do{  
+    do
+    {  
     printf("\n1.for +\n2.for -\n3.for *\n4.for /\n");
     scanf("%d",&z);
     printf("enter 2 number");
